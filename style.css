@@ -1,0 +1,36 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    color: #EAEAEA;
+  }
+  canvas {
+    display: block;
+    right:0;
+    width:80vw;
+    height:100vh;
+  }
+  section{
+    display: flex;
+  }
+  .menu{
+    background-color: #1f2384;
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    padding: 10px;
+    left:0
+  }
+  #massa{
+    align-self: center;
+  }
+  button{
+    background-color: #6e72e3;
+    border: solid 2px #02A;
+    border-radius: 20px;
+    height: 5vh;
+    color: #EAEAEA;
+    font-size: 2vh;
+    padding:3px;
+  }
+  
